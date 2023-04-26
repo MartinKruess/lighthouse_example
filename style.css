@@ -1,0 +1,88 @@
+:root{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+nav{
+    background-color: #343639;
+    color: #eee;
+    display: flex;
+    padding: 1rem 5rem;
+}
+
+nav div{
+    width: 8rem;
+    margin: auto;
+}
+
+nav div:hover{
+    color: red;
+}
+
+section{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border: dotted
+}
+
+.card{
+    background-color: lightblue;
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    border: solid;
+    border-radius: 1rem;
+}
+
+h1{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+.card div{
+    width: 80%;
+    margin: auto;
+}
+
+.card div img{
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow:
+    0.2rem 0.2rem 0.2rem 0.2rem #233e5e,
+    -0.1rem -0.1rem 0.1rem 0.1rem #233e5e;
+}
+
+a{
+    background-color: #446655;
+    color: #eee;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    border: solid 0.1rem #ccc;
+    border-radius: 0.5rem;
+}
+
+p{
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
