@@ -15,7 +15,6 @@ body{
 
 nav{
     background-color: #343639;
-    color: #eee;
     display: flex;
     padding: 1rem 5rem;
 }
@@ -83,6 +82,7 @@ a{
 }
 
 p{
+    font-size: 0.9rem;
     margin: 1rem 0;
     padding: 0.5rem;
 }
